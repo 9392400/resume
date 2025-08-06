@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume--{{form.name}}</title>
+</head>
+<body>
+    <h2>{{form.name}}</h2>
+    <h2>{{form.email}}</h2>
+    <h2>{{form.phone}}</h2>
+    <hr/>
+    <h3>Summary</h3>
+    <p>{{form.summary}}</p>
+    <hr/>
+    <h3>Skills<h3>
+    <p>{{form.skills}}</p>
+    <hr/>
+    <h3>Education</h3>
+    <ul>
+        <li>
+            Schooling:{{form.degree}} from {{form.university}}
+        </li>
+
+    </ul>
+    <hr/>
+    <h3>previous</h3>
+    <p>{{form.pervious}}</p>
+    
+</body>
+</html>
